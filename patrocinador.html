@@ -54,7 +54,7 @@
 
         <!-- VINHO #96314f AMARELO #e0cd35 -->
 
-        !-- Loading Header and Footer -->
+        <!-- Loading Header and Footer -->
         <script src="//code.jquery.com/jquery-1.10.2.js"></script>
         <script> 
             $(function(){
@@ -87,14 +87,31 @@
 
                         <div class="col-sm-6 col-md-6">
                             <br><br>
-                           <form class="newsletter-form">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Nome">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Email">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Phone">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Instituição">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Cargo">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Site">
-
+                           <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Nome</label>
+                                    <input type="text" class="form-control" id="name" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="text" class="form-control" id="email" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Phone</label>
+                                    <input type="tel" class="form-control" id="tel" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Instituição</label>
+                                    <input type="text" class="form-control" id="instituicao" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Cargo</label>
+                                    <input type="text" class="form-control" id="cargo" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Site</label>
+                                    <input type="text" class="form-control" id="url">
+                                </div>
                                 <button class="btn btn-mod">Enviar</button>
                             </form>
                        </div><!--End Col 2-->
@@ -169,6 +186,10 @@
         <!-- ==== Additional Scripts  [ Here scripts that can not be replicated ] ==== -->
         
         <!-- ================================================================================================= -->
+
+        <!-- Start of HubSpot Embed Code DeBILL -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3295914.js"></script>
+        <!-- End of HubSpot Embed Code DeBILL-->
         
     </body>
 </html>

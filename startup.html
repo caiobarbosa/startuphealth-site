@@ -89,14 +89,35 @@
 
                         <div class="col-sm-6 col-md-6">
                             <br><br>
-                           <form class="newsletter-form">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Nome">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Email">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Phone">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Instituição">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Cargo">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="CNPJ ou CPF">  
-                                <textarea class="btn-mod" rows="10" cols="40" maxlength="500"></textarea>
+                           <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Nome</label>
+                                    <input type="text" class="form-control" id="name" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="text" class="form-control" id="email" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Phone</label>
+                                    <input type="tel" class="form-control" id="tel" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Instituição</label>
+                                    <input type="text" class="form-control" id="instituicao" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Cargo</label>
+                                    <input type="text" class="form-control" id="cargo" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">CNPJ ou CPF</label>
+                                    <input type="text" class="form-control" id="cpf" required="true">
+                                </div> 
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Descrição</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+                                </div>
                                 <button class="btn btn-mod">Enviar</button>
                             </form>
                        </div><!--End Col 2-->
@@ -172,5 +193,9 @@
         
         <!-- ================================================================================================= -->
         
+        <!-- Start of HubSpot Embed Code DeBILL -->
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3295914.js"></script>
+        <!-- End of HubSpot Embed Code DeBILL-->
+
     </body>
 </html>

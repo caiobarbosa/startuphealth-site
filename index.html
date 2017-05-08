@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> Startup Health Recife </title>
-        <meta name="description" content="Bo Creative HTML Template">
+        <meta name="description" content="A Startup Health é o evento que vai promover um ambiente de negócio e conexão de startups, empreendedores e o mercado de saúde. Além disso teremos todos os principais pensadores, gestores, estudantes, profissionais de saúde e tecnologia para debater em inúmeras palestras e mesas redondas, qual o futuro da saúde?">
         <meta name="keywords" content="Template,icons,Blog,HTML,Magazine,Agancy,Shortcode,personal,landing">
         <meta charset="utf-8">
         <meta name="author" content="Salah Elimam">
@@ -54,11 +54,24 @@
 
         <!-- VINHO #96314f AMARELO #e0cd35 -->
 
+
+        <!-- Main Banner -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <!-- bxSlider Javascript file -->
         <script src="/js/jquery.bxslider.min.js"></script>
         <!-- bxSlider CSS file -->
         <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+        <!-- End Main Banner -->
+
+        <!-- Loading Header and Footer -->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script> 
+            $(function(){
+                $("#menu").load("menu.html"); 
+                $("#footer").load("footer.html"); 
+            });
+        </script>
+        <!-- End Loading Header and Footer -->
 
     </head>
     <body class="appear-animate agency-v">
@@ -74,45 +87,10 @@
 
             <!-- End Slider Section -->
         	
-            <nav class="liomenu main-nav mini-nav bg-white stick-fixed">
-                <div class="full-wrapper relative clearfix">
-                	<div class="container">
-	                    <div class="nav-logo-wrap local-scroll">
-	                    	<div class="logo-container">
-	                    		<a href="#top" class="logo">
-		                            <img src="assets/images/logo-colored.png"  width="100" height="38" alt="">
-		                        </a>
-	                    	</div><!--End Logo Container-->
-	                    </div>
-	                    <div class="mobile-nav">
-	                        <i class="fa fa-bars asd"></i>
-	                    </div>
-	                    <!-- Main Menu -->
-	                    <div class="inner-nav desktop-nav pull-left">
-	                        <ul class="clearlist fontweight-600">
-                                <li><a class="shhover" href="http://startuphealth.com.br/index.html" class="mn-has-sub mn-has-mega"> HOME <i class="fa"></i></a></li>
-                                <li><a class="shhover" href="http://startuphealth.com.br/2016.html" class="mn-has-sub"> EDIÇÃO 2016 <i class="fa"></i></a></li>
-                                <li><a class="shhover" href="http://startuphealth.com.br/startup.html" class="mn-has-sub" > STARTUP <i class="fa"></i></a></li>
-                                <li><a class="shhover" href="http://startuphealth.com.br/patrocinador.html" class="mn-has-sub" > PATROCINADOR <i class="fa"></i></a></li>
-                                <li><a class="shhover" href="#" class="mn-has-sub"> COMPRE AGORA <i class="fa"></i></a></li>
+            <!-- Menu -->
+			<div id="menu"></div>
+            <!-- End Menu -->
 
-                            </ul>
-	                    </div><!--End desktop-nav-->
-	                    <div class="header-search pull-right">
-	                    	<div class="option searchnav"><span class="showsearch"><i class="fa fa-search"></i></span></div>
-	                    </div><!--End Header Search-->
-                    </div><!--End Container-->
-                </div><!--End full-wrapper-->
-            </nav><!-- End Navigation panel -->
-            
-            <div class="searchoverlay">
-				<i class="pe-7s-close closesearch"></i>
-				<form  method="get" class="searchform" action="#">
-					<input type="text" value="" name="s" class="query" placeholder="Pesquisar  ...">
-					<i class="pe-7s-search"></i>
-				</form>
-			</div><!-- End searchoverlay -->
-			
 
             <!-- Testimonials Section -->
             <section class="page-section">
@@ -175,7 +153,7 @@
                     <div class="row">
 
                         <div class="col-sm-12 col-md-12 text-center">
-                            <p><h2 class="wow fadeInUp"> <ins> NOSSOS PARCEIROS </ins></h2></p>
+                            <p><h2 class="wow"> <ins> NOSSOS PARCEIROS </ins></h2></p>
                             <!-- <p> Marcas que apoiam esse projeto </p> -->
                         </div><!--End Col-->
 
@@ -198,7 +176,7 @@
 
             <!-- Sessão dos NEWSLETTER -->
             <section class="small-section bg-white bg-borderd-v">
-                <div class="container wow fadeIn">
+                <div class="container wow">
                     <div class="row">
                         <div class="col-sm-4 col-md-4 col-sm-offset-1">
                             <h4 class="newsletter-head"> Assine nossa Newsletter </h4>
@@ -215,114 +193,9 @@
                 </div><!--End Container-->
             </section><!--End Page NEWSLETTER-->   		            
             
-            
-            <!-- FOOTER GERAL -->
-         	<section class="page-section bg-dark-lighter">
-         		<div class="container footer-widgets">
-         			<div class="row">
-         				<div class="col-sm-3 col-md-3">
-         					<div class="widget">
-	         					<a href="#"><img src="assets/images/logo-small-gray.png" alt="" class="mb-30"></a>
-	         					<p class="mb-0"> A Startup Health é o evento que vai promover um ambiente de negócio e conexão de startups, empreendedores e o mercado de saúde. Além disso teremos todos os principais pensadores, gestores, estudantes, profissionais de saúde e tecnologia para debater em inúmeras palestras e mesas redondas, qual o futuro da saúde? </p>
-         					</div><!--End Widget-->
-         					
-         				</div><!--End Col-->
-         				<div class="col-sm-3 col-md-3">
-         					<div class="widget">
-         						<h4 class="widget-title"> Mais Informações </h4>
-	         					<ul>
-	         						<li><a class="shhover" href="http://www.startuphealth.com.br/termo_condicao.html" target="_blank">Termos e Condições</a></li>
-	         						<!-- <li><a class="shhover" href="#">Ui/UX Design</a></li> -->
-	         						<li><a class="shhover" href="2016.html">Edição 2016</a></li>
-	         						<li><a class="shhover" href="#">Blog</a></li>
-	         					</ul>
-         					</div><!--End Widget-->
-         				</div><!--End Col-->
-         				<div class="col-sm-3 col-md-3">
-         					<div class="widget widget_portfolio">
-         						<h4 class="widget-title"> Por onde andamos? </h4>
-							    <div class="recent-works-items">
-							    	<div class="portfolio-widget-item">
-							            <a href="" class="portfolio-pic">
-							            <img src="http://placehold.it/80x80/c7c7c7/ffffff" class="" alt="">
-							            <span class="portfolio-overlay"><i class="sline-magnifier-add"></i></span>
-							            </a>
-							        </div><!--End Item-->
-							        <div class="portfolio-widget-item">
-							            <a href="" class="portfolio-pic">
-							            <img src="http://placehold.it/80x80/c7c7c7/ffffff" class="" alt="">
-							            <span class="portfolio-overlay"><i class="sline-magnifier-add"></i></span>
-							            </a>
-							        </div><!--End Item-->
-							        <div class="portfolio-widget-item">
-							            <a href="" class="portfolio-pic">
-							            <img src="http://placehold.it/80x80/c7c7c7/ffffff" class="" alt="">
-							            <span class="portfolio-overlay"><i class="sline-magnifier-add"></i></span>
-							            </a>
-							        </div><!--End Item-->
-							        <div class="portfolio-widget-item">
-							            <a href="" class="portfolio-pic">
-							            <img src="http://placehold.it/80x80/c7c7c7/ffffff" class="" alt="">
-							            <span class="portfolio-overlay"><i class="sline-magnifier-add"></i></span>
-							            </a>
-							        </div><!--End Item-->
-							        <div class="portfolio-widget-item">
-							            <a href="" class="portfolio-pic">
-							            <img src="http://placehold.it/80x80/c7c7c7/ffffff" class="" alt="">
-							            <span class="portfolio-overlay"><i class="sline-magnifier-add"></i></span>
-							            </a>
-							        </div><!--End Item-->
-							        <div class="portfolio-widget-item">
-							            <a href="" class="portfolio-pic">
-							            <img src="http://placehold.it/80x80/c7c7c7/ffffff" class="" alt="">
-							            <span class="portfolio-overlay"><i class="sline-magnifier-add"></i></span>
-							            </a>
-							        </div><!--End Item-->
-							    </div><!--End Work-->
-						    </div><!--End Widget-->
-						</div><!--End Col-->
-						<div class="col-sm-3 col-md-3">
-         					<div class="widget widget_contact">
-         						<h4 class="widget-title">Contatos </h4>
-	         					<address> 
-
-	         						<span class="address"><i class="fa fa-map-marker"></i><span class="adress-overflow">Av. Prof. Andrade Bezerra, 
-                                    <br>s/n - Salgadinho, <br> Olinda/PE </span></span>
-                                     <span class="phone"><i class="fa fa-barcode"></i><strong>zipcode:</strong>53.110-680</span>
-                                     <span class="email"><i class="fa fa-envelope"></i><strong>E-Mail:</strong> <a class="shhover" href="mailto:info@yoursite.com">contato@startuphealth.com.br</a></span>
-                                     <span class="web"><i class="fa fa-globe"></i><strong>Web:</strong> <a class="shhover" href="http://startuphealth.com.br" target="_blank">startuphealth.com.br</a></span>
-	         					</address>
-         					</div><!--End Widget-->
-         				</div><!--End Col-->
-         			</div><!--End Row-->
-         		</div><!--End Container-->
-         	</section><!--End Section-->
-            
-         	
-         	<footer class="xtiny-section section-height-xstiny bg-dark">
-         		<div class="force-height-parent container relative">
-         			<div class="home-content">
-         				<div class="home-text  text-center">
-	                        <div class="row">
-			  					<div class="col-sm-6 col-md-6">
-			  						<p class="copyright-text pull-left mb-0">Copyright © 2017 - 
-                                    <a class="aghover" href="http://www.agenciahacker.com.br" target="_blank"> Agência Hacker </a></p>
-
-			  					</div><!--End col-->
-			  					<div class="col-sm-6 col-md-6">
-			  						<div class="f-social social pull-right">
-				  						<a class="shhover" href="https://www.instagram.com/startuphealthbr" target="_blank"><i class="fa fa-instagram"></i></a>
-								        <a href="https://www.facebook.com/startuphealthbr" target="_blank"><i class="fa fa-facebook"></i></a>
-							        </div>
-			  					</div><!--End Col-->
-		  					</div><!--End Row-->
-	                    </div><!--End home-text-->
-         			</div><!--End home-content-->
-         		</div><!--End force-height-parent-->
-         	</footer><!--End Footer-->
-         	
-            <!-- FINAL FOOTER GERAL -->
-
+        <!-- Footer Geral -->
+        <div id="footer"></div>
+        <!-- End Footer Geral -->
             
         </main><!-- End Page Wrap -->
         

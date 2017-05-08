@@ -5511,7 +5511,7 @@ a.logo:hover{
 }
 .inner-nav ul li a:hover,
 .inner-nav ul li a.active{
-    color: #000;
+    color: #95304E;
     text-decoration: none;
 }
 
@@ -23231,5 +23231,5 @@ body.freelancer  .wrapper-tiny   button.mfp-close,  .wrapper-tiny  button.mfp-ar
 }
 
 .jeff {
-    padding: 100px 0 0 0;
+    padding: 100px 0 0 0 !important;
 }

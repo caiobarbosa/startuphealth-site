@@ -47,9 +47,9 @@
 
         <!-- ==== Header JS  [ some pages need to load js file before loading] ========= -->
         <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-		<!--[if IE]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
         <!-- ================================================================================ -->
 
         <!-- VINHO #96314f AMARELO #e0cd35 -->
@@ -80,15 +80,51 @@
         <main class="page" id="top">
 
 
-        	<!-- Begin Slider Section -->
+            <!-- Begin Slider Section -->
             <div class="bxslider jeff">
                 <img src="assets/demo/large-00.jpg" />
             </div>
 
             <!-- End Slider Section -->
-        	
+            
             <!-- Menu -->
-			<div id="menu"></div>
+                     <nav class="liomenu main-nav mini-nav bg-white stick-fixed">
+                <div class="full-wrapper relative clearfix">
+                    <div class="container">
+                        <div class="nav-logo-wrap local-scroll">
+                            <div class="logo-container">
+                                <a href="http://startuphealth.com.br/index.html" class="logo">
+                                    <img src="assets/images/logo-colored.png"  width="100" height="38" alt="">
+                                </a>
+                            </div><!--End Logo Container-->
+                        </div>
+                        <div class="mobile-nav">
+                            <i class="fa fa-bars asd"></i>
+                        </div>
+                        <!-- Main Menu -->
+                        <div class="inner-nav desktop-nav pull-left">
+                            <ul class="clearlist fontweight-600">
+                                <li><a class="shhover" href="http://startuphealth.com.br/index.html" class="mn-has-sub mn-has-mega"> HOME <i class="fa"></i></a></li>
+                                <li><a class="shhover" href="http://startuphealth.com.br/2016.html" class="mn-has-sub"> EDIÇÃO 2016 <i class="fa"></i></a></li>
+                                <li><a class="shhover" href="http://startuphealth.com.br/startup.html" class="mn-has-sub" > STARTUP <i class="fa"></i></a></li>
+                                <li><a class="shhover" href="http://startuphealth.com.br/patrocinador.html" class="mn-has-sub" > PATROCINADOR <i class="fa"></i></a></li>
+                                <li><a class="shhover" href="http://google.com.br" class="mn-has-sub"> <b class="btn btn-danger"> COMPRE AGORA </b> <i class="fa"></i></a></li>
+                            </ul>
+                        </div><!--End Main Menu-->
+                        <div class="header-search pull-right">
+                            <div class="option searchnav"><span class="showsearch"><i class="fa fa-search"></i></span></div>
+                        </div><!--End Header Search-->
+                    </div><!--End Container-->
+                </div><!--End full-wrapper-->
+            </nav><!-- End Navigation panel -->
+            
+            <div class="searchoverlay">
+                <i class="pe-7s-close closesearch"></i>
+                <form  method="get" class="searchform" action="#">
+                    <input type="text" value="" name="s" class="query" placeholder="Pesquisar  ...">
+                    <i class="pe-7s-search"></i>
+                </form>
+            </div><!-- End searchoverlay -->
             <!-- End Menu -->
 
 
@@ -183,15 +219,25 @@
                             <p class="newsletter-desc"> Fique por dentro de todas as novidades do evento </p>
                         </div><!--End Col-->
                         <div class="col-sm-6 col-md-6  ">
-                            <form class="newsletter-form ">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Nome">
-                                <input type="text" class="bordrd-input form-control" required=true placeholder="Email">
-                                <button class="btn btn-mod">Se inscrever</button>
-                            </form><!--End Newsletter-->
+                            <form action="//startuphealth.us15.list-manage.com/subscribe/post?u=ce1e1171f60cfca0e1b286a22&amp;id=2055565e60" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" value="" name="EMAIL" class="form-control" id="email" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Nome</label>
+                                    <input type="text" value="" name="FNAME" class="form-control" id="name" required="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Sobrenome</label>
+                                    <input type="text" value="" name="LNAME" class="form-control" id="name" required="true">
+                                </div>
+                                <button class="btn btn-mod" value="Subscribe" name="subscribe">Enviar</button>
+                            </form>
                         </div><!--End Col-->
                     </div><!--End Row-->
                 </div><!--End Container-->
-            </section><!--End Page NEWSLETTER-->   		            
+            </section><!--End Page NEWSLETTER-->                    
             
         <!-- Footer Geral -->
         <div id="footer"></div>

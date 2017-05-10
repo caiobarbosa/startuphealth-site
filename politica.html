@@ -54,6 +54,17 @@
 
         <!-- VINHO #96314f AMARELO #e0cd35 -->
 
+        <!-- Loading Header and Footer -->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script> 
+            $(function(){
+                $("#menu").load("includes/menu.html"); 
+                $("#footer").load("includes/footer.html");
+                $("#newsletter").load("includes/newsletter.html"); 
+            });
+        </script>
+        <!-- End Loading Header and Footer -->
+
     </head>
     <body class="appear-animate agency-v">
         
@@ -155,20 +166,7 @@ Suas informações pessoais serão compartilhadas com nossos parceiros apenas qu
   		            
             <!-- Sessão dos NEWSLETTER -->
             <section class="small-section bg-white bg-borderd-v">
-                <div class="container wow fadeIn">
-                    <div class="row">
-                        <div class="col-sm-4 col-md-4 col-sm-offset-1">
-                            <h4 class="newsletter-head"> Assine nossa Newsletter </h4>
-                            <p class="newsletter-desc"> Fique por dentro de todas as novidades do evento </p>
-                        </div><!--End Col-->
-                        <div class="col-sm-6 col-md-6  ">
-                            <form class="newsletter-form ">
-                                <input type="text" class="bordrd-input form-control" placeholder="Nome">
-                                <input type="text" class="bordrd-input form-control" placeholder="Email">
-                                <button class="btn btn-mod">Se inscrever</button>
-                            </form><!--End Newsletter-->
-                        </div><!--End Col-->
-                    </div><!--End Row-->
+                <div id="newsletter" class="container wow">
                 </div><!--End Container-->
             </section><!--End Page NEWSLETTER-->                    
             
